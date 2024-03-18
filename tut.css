@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 750px;
+   background: linear-gradient(blue,pink,aqua);
+}
+.background{
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(90deg,blue, pink,aqua);
+    position: absolute;
+    left: 22%;
+    top: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px 5px black;
+}
+#login{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 26px;
+    font-weight: 900;
+}
+.username{
+    border-radius: 20px;
+    position: absolute;
+    bottom: 62%;
+    left: 9%;
+    height: 30px;
+    width: 310px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+.password{
+    border-radius: 20px;
+    position: absolute;
+    bottom: 45%;
+    left: 10%;
+    height: 30px;
+    width: 310px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+.rememberme{
+    color: white;
+    position: absolute;
+    top: 172px;
+    left: 43px;
+
+}
+.forget{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top:170px;
+    left: 252px;
+}
+.button{
+    height: 32px;
+    width: 320px;
+    border-radius: 20px;
+    position: absolute;
+    left: 10%;
+    bottom: 55px;  
+    border-color: transparent;
+    cursor: pointer;
+}
+.account{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 250px;
+    left: 121px;
+
+}
